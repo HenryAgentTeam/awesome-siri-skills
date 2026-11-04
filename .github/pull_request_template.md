@@ -1,0 +1,4 @@
+- [ ] `npm run validate` passes with zero warnings
+- [ ] `npm test` passes
+- [ ] `npm run readme` was run if skills changed
+- [ ] Skills are for hypothetical apps, not real brands

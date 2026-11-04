@@ -1,0 +1,19 @@
+name: Bug in the CLI or MCP server
+description: Something the validator gets wrong, or a crash.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: SKILL.md or command to reproduce
+      render: markdown
+  - type: input
+    id: version
+    attributes:
+      label: siriskills version and Node version

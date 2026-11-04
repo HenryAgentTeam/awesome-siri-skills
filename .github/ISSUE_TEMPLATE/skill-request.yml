@@ -1,0 +1,23 @@
+name: Request a skill
+description: Suggest a kind of app or task that needs an example skill.
+labels: [skill-request]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App category
+      placeholder: e.g. pharmacy app, ride sharing, kids' learning
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: What would a person ask Siri?
+      placeholder: '"Refill my prescription and tell me when it is ready"'
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools (App Intents) the app would expose
+      placeholder: Find Prescriptions, Request Refill, Get Pickup Status
