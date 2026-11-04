@@ -3,6 +3,7 @@
 > A curated library of **Siri app skills**, plus a CLI and MCP server to validate and ship them.
 
 [![CI](https://github.com/HenryAgentTeam/awesome-siri-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/HenryAgentTeam/awesome-siri-skills/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/siriskills.svg?color=black)](https://www.npmjs.com/package/siriskills)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/web-siriskills.com-0071e3.svg)](https://siriskills.com)
 [![MCP](https://img.shields.io/badge/MCP-server-black.svg)](#mcp-server)
@@ -40,8 +41,6 @@ npx -y siriskills add reorder-delivery --bundle MyApp/Skills.skillsbundle
 # Or let your coding agent do it
 claude mcp add siriskills -- npx -y siriskills mcp
 ```
-
-Until the package is on npm, swap `siriskills` for `github:HenryAgentTeam/awesome-siri-skills`.
 
 Prefer a browser? Use the [generator](https://siriskills.com/generator/) and [validator](https://siriskills.com/validate/) on siriskills.com.
 
