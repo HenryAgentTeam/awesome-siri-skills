@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.HenryAgentTeam/siriskills",
   "title": "Siri Skills",
-  "description": "Validate, scaffold and install Siri app skills (SKILL.md in Skills.skillsbundle), with 40 example skills.",
+  "description": "Validate, scaffold and install Siri app skills (SKILL.md in Skills.skillsbundle). 40 examples.",
   "repository": { "url": "https://github.com/HenryAgentTeam/awesome-siri-skills", "source": "github" },
   "websiteUrl": "https://siriskills.com",
   "version": "0.1.0",
