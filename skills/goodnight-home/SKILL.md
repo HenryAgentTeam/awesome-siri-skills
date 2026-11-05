@@ -1,6 +1,6 @@
 ---
 name: goodnight-home
-description: Wind the house down for the night: lock the doors, turn off the lights, and set the thermostat. Use when the user says good night or asks to get the house ready for bed. Not for leaving the house or for a morning routine.
+description: "Wind the house down for the night: lock the doors, turn off the lights, and set the thermostat. Use when the user says good night or asks to get the house ready for bed. Not for leaving the house or for a morning routine."
 ---
 
 # Get the house ready for bed
